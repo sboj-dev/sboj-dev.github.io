@@ -3,7 +3,8 @@
 <head>
     <title>SboJ - Launching soon</title>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
     <style type="text/css">
         #mc_embed_signup {
             clear: left;
@@ -60,7 +61,7 @@
             width: 400px;
 
             margin: auto;
-            margin-top: 25vh;
+            margin-top: 20vh;
             text-align: center;
         }
 
@@ -74,15 +75,44 @@
             font-weight: 700;
         }
 
-        /* #launching {
-                font-size: 32px;
-            }
-            #soon {
-                font-size: 52px;
-            } */
         svg {
             width: 100%;
             fill: #FFFFFF;
+        }
+
+        hr {
+            width: 150px;
+            border-bottom: 2px solid #FFFFFF;
+        }
+
+        p {
+            font-family: 'Rubik', sans-serif;
+            font-weight: 400;
+            color: #FFFFFF;
+        }
+
+        #email {
+            color: #969696;
+            font-family: 'Rubik', sans-serif;
+            height: 24px;
+            border: none;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+            padding: 0px 6px;
+            font-style: italic;
+        }
+
+        #notify-me {
+            background-color: #08CAA1;
+            border: none;
+            color: #FFFFFF;
+            font-family: 'Rubik', sans-serif;
+            font-weight: 500;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+            height: 24px;
         }
     </style>
 </head>
@@ -104,20 +134,22 @@
 
         </h2>
 
-        <!-- Begin Mailchimp Signup Form -->
+        <hr>
+
+        <p>Stay in the know about updates to this site!</p>
 
         <div id="mc_embed_signup">
             <form action="https://sboj.us8.list-manage.com/subscribe/post?u=5ab6504c709f13633e56397f6&amp;id=9a7b2abf8c"
                 method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
                 target="_blank" novalidate>
 
-                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address"
-                    required>
+                <input id="email" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL"
+                    placeholder="email address" required>
                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                 <div style="position: absolute; left: -5000px;" aria-hidden="true">
                     <input type="text" name="b_5ab6504c709f13633e56397f6_9a7b2abf8c" tabindex="-1" value="">
                 </div>
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                <input id="notify-me" type="submit" value="Notify me" name="subscribe" id="mc-embedded-subscribe">
             </form>
         </div>
     </div>
